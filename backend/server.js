@@ -5,9 +5,9 @@ import Razorpay from "razorpay";
          
 // cloudinary configuration
 cloudinary.config({ 
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY, 
-  api_secret: process.env.CLOUDINARY_API_SECRET 
+  cloud_name: 'dzspkf3x9', 
+  api_key: '276711715475617', 
+  api_secret: 'AK9pyygHdO-f5EUXmALymPcv0IE' // Click 'View API Keys' above to copy your API secret
 });
 
 // razorpay  

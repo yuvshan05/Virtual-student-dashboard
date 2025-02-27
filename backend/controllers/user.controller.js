@@ -143,7 +143,7 @@ const logout = async (req, res, next) => {
 
 
 // getProfile
-const getProfile = async (req, res) => {
+const getProfile = async (req, res,next) => {
     try {
         const { id } = req.user;
         const user = await userModel.findById(id);
